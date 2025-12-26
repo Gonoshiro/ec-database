@@ -1,0 +1,105 @@
+user@docker-vm:/opt/ec-database$ sudo docker compose logs mssql --tail 100
+WARN[0000] /opt/ec-database/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+2025-12-26 21:37:11.79 spid22s     Starting up database 'mssqlsystemresource'.
+2025-12-26 21:37:11.80 spid22s     The resource database build version is 16.00.4225. This is an informational message only. No user action is required.
+2025-12-26 21:37:11.86 spid22s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-12-26 21:37:11.87 spid22s     Starting up database 'model'.
+2025-12-26 21:37:12.04 spid20s     Converting database 'model_replicatedmaster' from version 927 to the current version 957.
+2025-12-26 21:37:12.05 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 927 to version 928.
+2025-12-26 21:37:12.07 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 928 to version 929.
+2025-12-26 21:37:12.12 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 929 to version 930.
+2025-12-26 21:37:12.14 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 930 to version 931.
+2025-12-26 21:37:12.15 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 931 to version 932.
+2025-12-26 21:37:12.17 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 932 to version 933.
+2025-12-26 21:37:12.18 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 933 to version 934.
+2025-12-26 21:37:12.19 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 934 to version 935.
+2025-12-26 21:37:12.21 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 935 to version 936.
+2025-12-26 21:37:12.22 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 936 to version 937.
+2025-12-26 21:37:12.23 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 937 to version 938.
+2025-12-26 21:37:12.24 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 938 to version 939.
+2025-12-26 21:37:12.26 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 939 to version 940.
+2025-12-26 21:37:12.26 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 940 to version 941.
+2025-12-26 21:37:12.27 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 941 to version 942.
+2025-12-26 21:37:12.28 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 942 to version 943.
+2025-12-26 21:37:12.34 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 943 to version 944.
+2025-12-26 21:37:12.35 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 944 to version 945.
+2025-12-26 21:37:12.37 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 945 to version 946.
+2025-12-26 21:37:12.38 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 946 to version 947.
+2025-12-26 21:37:12.39 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 947 to version 948.
+2025-12-26 21:37:12.40 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 948 to version 949.
+2025-12-26 21:37:12.41 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 949 to version 950.
+2025-12-26 21:37:12.43 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 950 to version 951.
+2025-12-26 21:37:12.46 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 951 to version 952.
+2025-12-26 21:37:12.47 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 952 to version 953.
+2025-12-26 21:37:12.50 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 953 to version 954.
+2025-12-26 21:37:12.52 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 954 to version 955.
+2025-12-26 21:37:12.54 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 955 to version 956.
+2025-12-26 21:37:12.57 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 956 to version 957.
+2025-12-26 21:37:12.61 spid20s     [32761]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-12-26 21:37:12.63 spid20s     Starting up database 'model_msdb'.
+2025-12-26 21:37:12.78 spid20s     Converting database 'model_msdb' from version 927 to the current version 957.
+2025-12-26 21:37:12.79 spid20s     Database 'model_msdb' running the upgrade step from version 927 to version 928.
+2025-12-26 21:37:12.81 spid20s     Database 'model_msdb' running the upgrade step from version 928 to version 929.
+2025-12-26 21:37:12.87 spid20s     Database 'model_msdb' running the upgrade step from version 929 to version 930.
+2025-12-26 21:37:12.89 spid20s     Database 'model_msdb' running the upgrade step from version 930 to version 931.
+2025-12-26 21:37:12.92 spid20s     Database 'model_msdb' running the upgrade step from version 931 to version 932.
+2025-12-26 21:37:12.94 spid20s     Database 'model_msdb' running the upgrade step from version 932 to version 933.
+2025-12-26 21:37:12.95 spid20s     Database 'model_msdb' running the upgrade step from version 933 to version 934.
+2025-12-26 21:37:12.96 spid20s     Database 'model_msdb' running the upgrade step from version 934 to version 935.
+2025-12-26 21:37:12.98 spid20s     Database 'model_msdb' running the upgrade step from version 935 to version 936.
+2025-12-26 21:37:12.99 spid20s     Database 'model_msdb' running the upgrade step from version 936 to version 937.
+2025-12-26 21:37:13.00 spid20s     Database 'model_msdb' running the upgrade step from version 937 to version 938.
+2025-12-26 21:37:13.01 spid29s     A self-generated certificate was successfully loaded for encryption.
+2025-12-26 21:37:13.02 spid29s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
+2025-12-26 21:37:13.02 spid20s     Database 'model_msdb' running the upgrade step from version 938 to version 939.
+2025-12-26 21:37:13.02 spid29s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
+2025-12-26 21:37:13.03 spid20s     Database 'model_msdb' running the upgrade step from version 939 to version 940.
+2025-12-26 21:37:13.03 Server      Server is listening on [ ::1 <ipv6> 1434] accept sockets 1.
+2025-12-26 21:37:13.04 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434] accept sockets 1.
+2025-12-26 21:37:13.04 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2025-12-26 21:37:13.04 spid20s     Database 'model_msdb' running the upgrade step from version 940 to version 941.
+2025-12-26 21:37:13.05 spid29s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
+2025-12-26 21:37:13.06 spid20s     Database 'model_msdb' running the upgrade step from version 941 to version 942.
+2025-12-26 21:37:13.06 spid29s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
+2025-12-26 21:37:13.07 spid29s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2025-12-26 21:37:13.10 spid20s     Database 'model_msdb' running the upgrade step from version 942 to version 943.
+2025-12-26 21:37:13.12 Server      External governance manager initialized
+2025-12-26 21:37:13.15 spid20s     Database 'model_msdb' running the upgrade step from version 943 to version 944.
+2025-12-26 21:37:13.15 spid20s     Database 'model_msdb' running the upgrade step from version 944 to version 945.
+2025-12-26 21:37:13.18 spid20s     Database 'model_msdb' running the upgrade step from version 945 to version 946.
+2025-12-26 21:37:13.19 spid20s     Database 'model_msdb' running the upgrade step from version 946 to version 947.
+2025-12-26 21:37:13.19 spid20s     Database 'model_msdb' running the upgrade step from version 947 to version 948.
+2025-12-26 21:37:13.20 spid20s     Database 'model_msdb' running the upgrade step from version 948 to version 949.
+2025-12-26 21:37:13.21 spid20s     Database 'model_msdb' running the upgrade step from version 949 to version 950.
+2025-12-26 21:37:13.23 spid20s     Database 'model_msdb' running the upgrade step from version 950 to version 951.
+2025-12-26 21:37:13.25 spid20s     Database 'model_msdb' running the upgrade step from version 951 to version 952.
+2025-12-26 21:37:13.26 spid20s     Database 'model_msdb' running the upgrade step from version 952 to version 953.
+2025-12-26 21:37:13.28 spid20s     Database 'model_msdb' running the upgrade step from version 953 to version 954.
+2025-12-26 21:37:13.29 spid20s     Database 'model_msdb' running the upgrade step from version 954 to version 955.
+2025-12-26 21:37:13.30 spid20s     Database 'model_msdb' running the upgrade step from version 955 to version 956.
+2025-12-26 21:37:13.35 spid20s     Database 'model_msdb' running the upgrade step from version 956 to version 957.
+2025-12-26 21:37:13.41 spid35s     Attribute synchronization initialized
+2025-12-26 21:37:13.41 spid20s     Resource governor reconfiguration succeeded.
+2025-12-26 21:37:13.41 spid35s     Attribute synchronization manager initialized
+2025-12-26 21:37:13.42 spid20s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2025-12-26 21:37:13.42 spid20s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2025-12-26 21:37:13.53 spid20s     SQL Trace ID 1 was started by login "sa".
+2025-12-26 21:37:13.55 spid20s     Server name is '38e7a446351c'. This is an informational message only. No user action is required.
+2025-12-26 21:37:13.58 spid22s     Clearing tempdb database.
+2025-12-26 21:37:13.58 spid51s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2025-12-26 21:37:13.59 spid49s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-12-26 21:37:13.59 spid51s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2025-12-26 21:37:13.60 spid49s     Starting up database 'msdb'.
+2025-12-26 21:37:13.90 spid22s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-12-26 21:37:13.91 spid22s     Starting up database 'tempdb'.
+2025-12-26 21:37:14.55 spid22s     The tempdb database has 4 data file(s).
+2025-12-26 21:37:14.56 spid33s     The Service Broker endpoint is in disabled or stopped state.
+2025-12-26 21:37:14.57 spid33s     The Database Mirroring endpoint is in disabled or stopped state.
+2025-12-26 21:37:14.60 spid33s     Service Broker manager has started.
+2025-12-26 21:37:14.61 spid20s     Recovery is complete. This is an informational message only. No user action is required.
+2025-12-26 21:44:05.17 spid53      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2025-12-26 21:44:05.22 spid53      Using 'xplog70.dll' version '2022.160.4225' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2025-12-26 21:45:58.81 spid53      Using 'dbghelp.dll' version '4.0.5'
+user@docker-vm:/opt/ec-database$ sudo docker compose exec daily-batch ping -c 3 mssql
+WARN[0000] /opt/ec-database/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+OCI runtime exec failed: exec failed: unable to start container process: exec: "ping": executable file not found in $PATH: unknown
