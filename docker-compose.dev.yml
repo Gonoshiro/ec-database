@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mssql-dev:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ec-mssql-dev
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "DevPassword123!"
+      MSSQL_PID: "Developer"
+      TZ: Asia/Tokyo
+    volumes:
+      - mssql_dev_data:/var/opt/mssql
+      - ./src/database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    ports:
+      - "1433:1433"
+    networks:
+      - ec-dev-network
+
+volumes:
+  mssql_dev_data:
+
+networks:
+  ec-dev-network:
+    driver: bridge
